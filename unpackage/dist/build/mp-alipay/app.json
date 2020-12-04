@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/link/link",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "外卖券",
+    "titleBarColor": "#f4c242",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#f4c242",
+    "backgroundColor": "white",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/home.png",
+        "activeIcon": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "个人中心",
+        "icon": "static/person.png",
+        "activeIcon": "static/person-active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "page-foot": "/components/page-foot",
+    "u-link": "/components/uLink"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "外卖券",
+  "usingComponents": {
+    "show-tips": "/wxcomponents/redflower-showTips/redflower-showTips"
+  }
+}

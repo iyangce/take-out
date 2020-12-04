@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "外卖红包",
+  "usingComponents": {
+    "show-tips": "/wxcomponents/redflower-showTips/redflower-showTips"
+  }
+}
